@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ФК Барселона</title>
+  <style>
+    /* Загальні стилі */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #004D98;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header .logo img {
+      width: 150px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-image: url('https://example.com/campnou.jpg'); /* Замініть посилання на реальне зображення */
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: white;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .about {
+      padding: 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+    footer {
+      background-color: #004D98;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    /* Медіа-запити для мобільних пристроїв */
+    @media (max-width: 768px) {
+      header .logo img {
+        width: 120px;
+      }
+      nav ul li {
+        display: block;
+        margin: 5px 0;
+      }
+      .hero h1 {
+        font-size: 2em;
+      }
+      .about {
+        padding: 10px;
+      }
+    }
+    @media (max-width: 480px) {
+      .hero {
+        height: 250px;
+      }
+      .hero h1 {
+        font-size: 1.5em;
+      }
+      .about {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="FC Barcelona">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="history.html">Історія клубу</a></li>
+        <li><a href="team.html">Команда</a></li>
+        <li><a href="tournaments.html">Міжнародні турніри</a></li>
+        <li><a href="news.html">Новини</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Вітаємо на офіційному сайті ФК Барселона!</h1>
+      <p>Гордимося історією та досягненнями!</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Про клуб</h2>
+    <p>Футбольний клуб Барселона – це легенда світового футболу. Від заснування в 1899 році до сьогоднішніх перемог – ми завжди прагнемо до досконалості!</p>
+  </section>
+
+  <footer>
+    <p>© 2025 ФК Барселона</p>
+  </footer>
+</body>
+</html>
